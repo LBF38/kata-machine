@@ -3,9 +3,12 @@ export default function bfs(head: BinaryNode<number>, needle: number): boolean {
 
     while (q.length > 0) {
         const node = q.shift();
+
+        // search
         if (node?.value === needle) {
             return true;
         }
+
         if (node?.left) {
             q.push(node.left);
         }
@@ -13,5 +16,6 @@ export default function bfs(head: BinaryNode<number>, needle: number): boolean {
             q.push(node.right);
         }
     }
+
     return false;
 }
