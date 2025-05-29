@@ -27,5 +27,6 @@ module.exports = {
         "DijkstraList",
         "PrimsList",
         "BFSGraphList",
+        "RingBuffer",
     ],
 };
