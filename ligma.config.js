@@ -28,5 +28,7 @@ module.exports = {
         "PrimsList",
         "BFSGraphList",
         "RingBuffer",
+        "InsertionSort",
+        "MergeSort",
     ],
 };
